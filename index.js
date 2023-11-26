@@ -1,5 +1,5 @@
 var Prestige = 0.00;
-var Money = 10000.00;
+var Money = 0.00;
 var Earnings = 1.00;
 var earningBoost = 0.1;
 var PrestigeGoal = 0.5;
