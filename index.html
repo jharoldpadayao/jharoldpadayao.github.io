@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <title></title>
+</head>
+
+<body>
+  <div id="SG">
+    <button id="StartGame" onclick="StartGame()">Start Game</button>
+  </div>
+
+  <div id="GH">
+    <div id="MH">
+      <button class="MCard" class="Upgrade" id="Menu" onclick="Menu()">Menu</button>
+      <button class="MCard" id="Upgrade" onclick="Upgrade()">Upgrades</button>
+    </div>
+
+    <div id="CH">
+      <p id="Prestige0">Prestige: 💎0.0</p>
+      <p class="CCard" id="DollarC">Money: 💰0</p>
+      <p class="CCard" id="Earning">Earnings: 💰1/click</p>
+    </div>
+
+    <p id="ObTxt">Hit The Criminal! 👊</p>
+
+    <div id="GCH">
+      <button id="Criminal" onclick="Earn()">🥷</button>
+    </div>
+
+    <button id="Prestiges" onclick="PrestigeM()">Prestige</button>
+  </div>
+
+  <div id="MOH">
+    <div id="MenuHolder">
+      <div id="MTxt">
+        📃 Menu 📃
+      </div>
+
+      <div class="Card">
+        <button class="SGO" id="Continue" onclick="Continue()">Continue</button>
+      </div>
+      <div class="Card">
+      <button class="SGO" id="Upgrade" onclick="Upgrade()">Upgrades</button>
+      </div>
+      <div class="Card">
+        <button class="SGO" id="Restart"><a href="index.html">Restart</a></button>
+      </div>
+      <div class="Card">
+        <button class="SGO" id="Settings" onclick="Settings()">Settings</button>
+      </div>
+      <div class="Card">
+        <button class="SGO" id="Credits" onclick="Credits()">Credits</button>
+      </div>
+      <div class="Card">
+        <button class="SGO">🚫 Coming Soon🚫</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="SH">
+    <div id="Setting">
+      <div id="STxt">
+        🛠️ Settings 🛠️
+      </div>
+
+      <div id="DMode">
+        <button class="SGO" id="LightMode" onclick="LightMode()">Change: ☀️</button>
+      </div>
+      <div class="Card">
+        <button class="SGO">🚫 Coming Soon🚫</button>
+      </div>
+      <div class="Card">
+        <button class="SGO">🚫 Coming Soon🚫</button>
+      </div>
+      <div class="Card">
+        <button class="SGO">🚫 Coming Soon🚫</button>
+      </div>
+      <div class="Card">
+        <button class="SGO">🚫 Coming Soon🚫</button>
+      </div>
+      <div class="Card">
+        <button class="SGO" id="Back" onclick="Back()">Back</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="CCH">
+    <div class="SCard1">
+      <button id="Back1" onclick="BackC()">Back</button>
+    </div>
+    
+    <div id="Credit">
+      <div id="CTxt">
+        📰 Credits 📰
+      </div>
+
+      <div class="Card">
+        <button class="SGO"><a href="https://www.facebook.com/harold.padayao.7?mibextid=ZbWKwL">©️ Copyright: @JharoldPadayao</a></button>
+      </div>
+      <div class="Card">
+        <button class="SGO"><a href="https://www.facebook.com/harold.padayao.7?mibextid=ZbWKwL">💻 Developer: @JharoldPadayao</a></button>
+      </div>
+      <div class="Card">
+        <button class="SGO"><a href="https://www.facebook.com/harold.padayao.7?mibextid=ZbWKwL">🖌️ Designer: @JharoldPadayao</a></button>
+      </div>
+      <div class="Card">
+        <button class="SGO"><a href="https://www.facebook.com/harold.padayao.7?mibextid=ZbWKwL">📰 Publisher: @JharoldPadayao</a></button>
+      </div>
+      <div class="Card">
+        <button class="SGO"><a href="https://www.facebook.com/harold.padayao.7?mibextid=ZbWKwL">💡 Content: @JharoldPadayao</a></button>
+      </div>
+      <div class="Card">
+        <button class="SGO"><a href="https://www.facebook.com/harold.padayao.7?mibextid=ZbWKwL">💰 Sponsored: @JharoldPadayao</a></button>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="USH">
+    <div id="MH">
+      <button class="MCard" id="Menu" onclick="Menu()">Menu</button>
+      <button class="MCard" id="Done" onclick="Done()">Done</button>
+    </div>
+
+    <div id="CH">
+      <p id="Prestige1" onclick="Prestige()">Prestige: 💎0.0</p>
+      <p class="CCard" id="DollarC0">Money: 💰0</p>
+      <p class="CCard" id="Earning0">Earnings: 💰1/click</p>
+    </div>
+
+    <div id="Shop">
+      <div id="USHTxt">
+        🛒 Shop 🛒
+      </div>
+
+      <p id="NoUp">No More Upgrades Left</p>
+
+      <div id="SC">
+        <div class="Card">
+          <button class="SGO" id="U0" onclick="U0()">Buy ☕:💰20 <br>Earnings +1</button>
+        </div>
+        <div class="Card">
+          <button class="SGO" id="U1" onclick="U1()">Buy 📱:💰40 <br>Earnings +2</button>
+        </div>
+        <div class="Card">
+          <button class="SGO" id="U2" onclick="U2()">Buy 🖋️:💰80 <br>Earnings +4</button>
+        </div>
+        <div class="Card">
+          <button class="SGO" id="U3" onclick="U3()">Buy 💻:💰160 <br>Earnings +5</button>
+        </div>
+        <div class="Card">
+          <button class="SGO" id="U4" onclick="U4()">Buy ❤️:💰300 <br>Earnings +6</button>
+        </div>
+        <div class="Card">
+          <button class="SGO" id="U5" onclick="U5()">Buy 🛴:💰500 <br>Earnings +10</button>
+        </div>
+        <div class="Card">
+          <button class="SGO" id="U6" onclick="U6()">Buy 🚲:💰800 <br>Earnings+12</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <div id="PH">
+    <div class="PB">
+      <button class="PB" id="Back2" onclick="Back()">Back</button>
+    </div>
+    <div id="PrestigeH">
+      <div id="PTxt">
+       💎 Prestige 💎
+      </div>
+      <div id="EPTxt">
+        Welcome To Prestige!
+      </div>
+      <p id="PCurrency">💎=0.0</p>
+      <div id="PrestigeB">
+        <button id="PBC" onclick="PBC()">Prestige <br> 💎=+%10 Earnings</button>
+      </div>
+      <div id="EPTxt1">
+        Ready for the ultimate reset? Click Prestige, kickstart anew, and enjoy a 10% earnings boost for each Prestige point. It's not just a restart it's your shortcut to epic rewards!
+      </div>
+    </div>
+  </div>
+  
+  <div id="CPH">
+    <div id="CP">
+      <div id="CPTxt">
+        Are you sure? <br> You Get 💎0.0!
+      </div>
+      <div id="CPB">
+        <button class="CPCard" id="Confirm" onclick="Confirm()">Confirm</button>
+        <button class="CPCard" id="PCancel" onclick="PCancel()">Cancel</button>
+      </div>
+    </div>
+  </div>
+  
+  <div id="AH">
+    <div id="AlertNB">
+      NOT ENOUGH MONEY!! <br> GO AWAY PEASANT!!
+    </div>
+  </div>
+</body>
+
+</html>

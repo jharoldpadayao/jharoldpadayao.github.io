@@ -1,0 +1,535 @@
+body{
+  background-color: black;
+  color: white;
+  margin: 0%
+}
+.visible {
+  display: flex !important; /* Use !important to override other styles */
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*.                  Spacing               . */
+
+/*Alerts*/
+#AH{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: none;/*flex*/
+  position: absolute;
+  width: 408px;
+  height: 776.5px;
+}
+#AlertNB{
+  border-style: solid;
+  border-color: white;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  text-align: center;
+  height: 200px;
+  width: 400px;
+}
+
+/*.                  Spacing               . */
+
+/*Confirm Prestige*/
+#CPH{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  background-color: black;
+  justify-content: center;
+  display: none;/*flex*/
+  position: absolute;
+  width: 408px;
+  height: 776.5px;
+}
+#CP{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  margin-left: 5%;
+  margin-top: 30%;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+}
+#CPTxt{
+  border-style: solid;
+  border-color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  height: 120px
+}
+#CPB{
+  border-style: solid;
+  border-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  width: 298px;
+}
+#PCancel{
+  margin-left: 20px;
+}
+.CPCard{
+  width: 100px;
+  height: 50px;
+}
+
+/*.                  Spacing               . */
+
+/*Prestige*/
+#PH{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  background-color: black;
+  justify-content: center;
+  display: none;/*flex*/
+  position: absolute;
+  width: 408px;
+  height: 776.5px;
+}
+#Back2{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  position: absolute;
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-top: 50px;
+  height: 50px;
+  width: 150px;
+}
+#PrestigeH{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  margin-left: 5%;
+  margin-top: 30%;
+  overflow: hidden;
+  width: 300px;
+  height: 500px;
+}
+#PTxt{
+  border-style: solid;
+  border-color: white;
+  background-color: gray;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  letter-spacing: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#EPTxt{
+  border-style: solid;
+  border-color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+}
+#EPTxt1{
+  border-style: solid;
+  border-color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+#PrestigeB{
+  border-style: solid;
+  border-color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  margin-top: 60px;
+}
+#PBC{
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+#PCurrency{
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+
+/*.                  Spacing               . */
+
+/*Shop Holder*/
+#USH{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  background-color: inherit;
+  display: none; /*flex*/
+  position: absolute;
+  width: 408px;
+  height: 776.5px;
+}
+/*Shop*/
+#Shop{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10%;
+  background-color: inherit;
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 12%;
+  width: 300px;
+  height: 400px;
+}
+#USHTxt{
+  border-style: solid;
+  border-color: white;
+  background-color: gray;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  letter-spacing: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#NoUp{
+  position: absolute;
+  text-align: center;
+  margin-top: 150px
+}
+/*Shop Content*/
+#SC{
+  border-style: solid;
+  border-color: white;
+  display: block;
+  overflow: scroll;
+  width: 100%;
+  height: 348px;
+  position: absolute;
+  margin-top: 52px;
+}
+
+/*.                  Spacing               . */
+
+/*Credits*/
+#CCH{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  background-color: black;
+  justify-content: center;
+  display: none;/*flex*/
+  position: absolute;
+  width: 408px;
+  height: 776.5px;
+}
+#SCard1{
+  border-style: solid;
+  border-color: white;
+  height: 50px;
+  width: 50px;
+}
+#Back1{
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  margin-top: 100px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+#Credit{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10%;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 50%;
+  height: 400px;
+  width: 300px;
+}
+#CTxt{
+  border-style: solid;
+  border-color: white;
+  background-color: gray;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  letter-spacing: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.                  Spacing               . */
+
+/*Settings Holder*/
+#SH{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  background-color: inherit;
+  justify-content: center;
+  align-items: center;
+  display: none; /*flex*/
+  position: absolute;
+  width: 408px;
+  height: 776.5px;
+}
+#Setting{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10%;
+  overflow: hidden;
+  position: absolute;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  height: 400px;
+  width: 300px;
+}
+#STxt{
+  border-style: solid;
+  border-color: white;
+  background-color: gray;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  letter-spacing: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#DMode{
+  border-style: solid;
+  border-color: white;
+  height: 55px;
+  width: 100%;
+}
+
+/*.                  Spacing               . */
+
+/*Menu Option Holder*/
+#MOH{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  background-color: inherit;
+  justify-content: center;
+  align-items: center;
+  display: none; /*flex*/
+  position: absolute;
+  width: 408px;
+  height: 776.5px;
+}
+/*Menu Holder*/
+#MenuHolder{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10%;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  height: 400px;
+  width: 300px;
+}
+#MTxt{
+  border-style: solid;
+  border-color: white;
+  background-color: gray;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  letter-spacing: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.Card{
+  border-style: solid;
+  border-color: white;
+  height: 55px;
+  width: 100%;
+}
+.SGO{
+  width: 100%;
+  height: 100%;
+  font-size: large;
+  font-weight: bold;
+}
+
+/*.                  Spacing               . */
+
+/*Game Holder*/
+#GH{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  background-color: inherit;
+  display: none; /*flex*/
+  position: absolute;
+  width: 408px;
+  height: 776.5px;
+}
+/*Menu/Upgrade Holder*/
+#MH{
+  /*border-style: solid;
+  border-color: white;*/
+  background-color: inherit;
+  display: flex;
+  width: 280px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 15%;
+}
+.MCard{
+  border-radius: 10px;
+  height: 40px;
+  width: 120px;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/*Currency Holder*/
+#CH{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  background-color: inherit;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5%;
+  margin-top: 60px;
+  width: 380px;
+  height: 40px;
+}
+#Prestige{
+  margin-left: 10px;
+}
+.CCard{
+  margin-left: 20px;
+}
+/*Game Content Holder*/
+#GCH{
+  border-style: solid;
+  border-color: white;
+  background-color: inherit;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 18%;
+  height: 250px;
+  width: 250px;
+}
+#ObTxt{
+  /*border-style: solid;
+  border-color: white;*/
+  background-color: inherit;
+  color: red;
+  text-align: center;
+  width: 350px;
+  height: 40px;
+  margin-left: -310px;
+  margin-top: 150px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+#Criminal{
+  background-color: inherit;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 200px;
+}
+/*Prestige*/
+#Prestiges{
+  border-radius: 15%;
+  height: 100px;
+  width: 300px;
+  position: absolute;
+  text-align: center;
+  margin-top: 550px;
+  margin-left: 13%;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+/*.                  Spacing               . */
+
+/*Start Game*/
+#SG{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  display: flex;/*flex*/
+  justify-content: center;
+  align-items: center;
+  width: 408px;
+  height: 776.5px;
+}
+#StartGame:hover{
+  background-color: burlywood;
+}
+#StartGame{
+  height: 60px;
+  width: 250px;
+  font-weight: bold;
+  font-size: 20px;
+}
