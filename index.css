@@ -1,0 +1,65 @@
+body{
+  background-color: pink;
+  margin: 0%;
+}
+
+.TText{
+  margin-top: -34vh;
+  position: absolute;
+  text-align: center;
+  font-size: 2vh;
+  font-weight: bold;
+  display: flex;
+}
+
+.Heart{
+  margin-top: -40vh;
+  position: absolute;
+  font-size: 10vh;
+  display: flex;
+}
+
+.I1{
+  width: auto;
+  height: 100%;
+  display: flex;
+}
+
+.Text{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Card{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  width: auto;
+  height: 99vh;
+}
+.SCard{
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: auto;
+  height: 99vh;
+}
+.Card1{
+  border-radius: 30px;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  width: 30vh;
+  height: 30vh;
+}
